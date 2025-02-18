@@ -27,7 +27,7 @@ const Carousels = () => {
     <>
       <div className="hotel relative">
         <Carousel
-          className="pt-[90px] md:pt-[100px] mx-auto xl:w-[1200px] lg:w-[900px] md:w-[700px] w-[450px]"
+          className="pt-[90px] md:pt-[100px] mx-auto xl:w-[1200px] lg:w-[900px] md:w-[700px] w-[410px]"
           showThumbs={false}
           autoPlay={true}
           transitionTime={3}
