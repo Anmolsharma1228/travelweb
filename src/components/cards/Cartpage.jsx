@@ -18,7 +18,7 @@ const Cartpage = ({ name, image, address, stars, rating }) => {
   };
 
   return (
-    <div className="dark:bg-gray-800 pt-[100px]">
+    <div className="pt-[100px]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="">
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden">

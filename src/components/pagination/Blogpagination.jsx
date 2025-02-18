@@ -64,12 +64,10 @@ const Blogpagination = () => {
             ))}
           </div>
 
-          {/* React-Paginate Component */}
           <div className="text-center my-10">
             <ReactPaginate
               previousLabel={<ArrowBack />}
               nextLabel={<ArrowForward />}
-              // breakLabel="..."
               pageCount={pageCount}
               marginPagesDisplayed={2}
               pageRangeDisplayed={3}
