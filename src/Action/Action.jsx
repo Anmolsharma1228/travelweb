@@ -38,7 +38,7 @@ export const fetchblogdata = () => {
     try {
        axios
         .get(
-          "https://newsapi.org/v2/everything?q=apple&from=2025-01-25&to=2025-01-25&sortBy=popularity&apiKey=8b76200418384a7dad1885452e2c44c4").then((res) => {
+          "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8b76200418384a7dad1885452e2c44c4").then((res) => {
           console.log(res);
           dispatch(
             ((data) => {
