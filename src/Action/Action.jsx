@@ -38,7 +38,7 @@ export const fetchblogdata = () => {
     try {
        axios
         .get(
-          "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=8b76200418384a7dad1885452e2c44c4").then((res) => {
+          "https://saurav.tech/NewsAPI/top-headlines/category/health/in.json").then((res) => {
           console.log(res);
           dispatch(
             ((data) => {
