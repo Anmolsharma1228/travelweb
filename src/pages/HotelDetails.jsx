@@ -66,7 +66,7 @@ const HotelDetails = () => {
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="flex flex-col md:flex-row -mx-4">
                     <div className="md:flex-1 px-4">
-                      <div className="md:h-[460px] h-[250px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+                      <div className="md:h-[460px] h-[250px] rounded-lg mb-4">
                         <img
                           className="w-full md:h-full h-[250px] object-cover"
                           src={data.main_photo}
