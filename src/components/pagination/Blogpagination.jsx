@@ -50,7 +50,7 @@ const Blogpagination = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
             {currentItems.map((blog) => (
               <Link
-                to={`/blogdetails/${blog.source.name}`}
+                to={`/blogdetails/${blog.publishedAt}`}
                 key={blog.id}
                 className="bg-white rounded-lg hover:scale-105 duration-500"
               >

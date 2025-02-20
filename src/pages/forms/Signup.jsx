@@ -15,6 +15,7 @@ const Signup = () => {
     password: "",
   });
   const navigate = useNavigate();
+  
   const handlechange = (e) => {
     const { name, value } = e.target;
     if (name === "name" && value.trim().length < 3) {

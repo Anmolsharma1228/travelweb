@@ -62,7 +62,7 @@ const HotelDetails = () => {
         <div>
           {hoteldetails.map((data) => {
             return (
-              <div key={data.id} className="bg-gray-100 py-[100px]">
+              <div key={data.id} className="py-[100px]">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                   <div className="flex flex-col md:flex-row -mx-4">
                     <div className="md:flex-1 px-4">

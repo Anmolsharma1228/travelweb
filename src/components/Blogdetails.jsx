@@ -20,7 +20,7 @@ const Blogdetails = () => {
   }, [data]);
 
   const params = useParams();
-  const blogdetails = Blogdata.filter((blog) => blog.source.name === params.id);
+  const blogdetails = Blogdata.filter((blog) => blog.publishedAt === params.id);
 
   return (
     <div>
