@@ -29,7 +29,7 @@ const Card = ({hotel,image, name, address, location, price, chain, stars, rating
               {address}
             </h4> 
             <div className="mt-1 flex justify-between">
-              <span>$1,900.00</span>
+              <span>$29.99</span>
               <button>
               </button>
             </div>
