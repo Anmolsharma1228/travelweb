@@ -93,46 +93,46 @@ const HotelDetails = () => {
                       </div>
                     </div>
                     <div className="md:flex-1 px-4">
-                      <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+                      <h2 className="text-2xl font-bold text-gray-800 mb-2">
                         {data.name}
                       </h2>
-                      <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                      <p className="text-gray-600  text-sm mb-4">
                         <LocationOn />
                         {data.address}
                       </p>
                       <div className="flex mb-4">
                         <div className="mr-4">
-                          <span className="font-bold text-gray-700 dark:text-gray-300">
+                          <span className="font-bold text-gray-700">
                             Price:
                           </span>
-                          <span className="text-gray-600 dark:text-gray-300">
+                          <span className="text-gray-600">
                             $29.99
                           </span>
                         </div>
                         <div>
-                          <span className="font-bold text-gray-700 dark:text-gray-300">
+                          <span className="font-bold text-gray-700">
                             Availability:
                           </span>
-                          <span className="text-gray-600 dark:text-gray-300">
+                          <span className="text-gray-600">
                             Availabile
                           </span>
                         </div>
                       </div>
                       <div className="mb-4">
-                        <span className="font-bold text-gray-700 dark:text-gray-300">
+                        <span className="font-bold text-gray-700">
                           Rating: {data.rating}
                         </span>
                       </div>
                       <div className="mb-4">
-                        <span className="font-bold text-gray-700 dark:text-gray-300">
+                        <span className="font-bold text-gray-700">
                           Stars: {data.stars}
                         </span>
                       </div>
                       <div>
-                        <span className="font-bold text-gray-700 dark:text-gray-300">
+                        <span className="font-bold text-gray-700">
                           hotelDescription:
                         </span>
-                        <p className="text-gray-600 dark:text-gray-300 text-sm mt-2">
+                        <p className="text-gray-600 text-sm mt-2">
                           {data.hotelDescription}
                         </p>
                       </div>
