@@ -110,13 +110,14 @@ const Navbar = () => {
             {user ? (
               <div className="relative ml-3">
                 <button
+                  data-testid="click"
                   onClick={toggleUserDropdown}
                   className="text-white hover:text-gray-300 flex items-center"
                 >
                   <FaRegUserCircle className="text-2xl" />
                 </button>
                 {userDropdownOpen && (
-                  <div className="absolute right-0 mt-2 bg-white rounded-md shadow-lg w-56 p-4">
+                  <div data-testid="user" className="absolute right-0 mt-2 bg-white rounded-md shadow-lg w-56 p-4">
                     <p className="text-gray-700 text-sm font-bold">
                       User: {user.name || user.email}
                     </p>
