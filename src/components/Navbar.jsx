@@ -3,7 +3,8 @@ import { NavLink, useNavigate, Link } from "react-router-dom";
 import { ImCross } from "react-icons/im";
 import { HiBars3CenterLeft } from "react-icons/hi2";
 import { FaRegUserCircle } from "react-icons/fa";
-import logo from "../assets/logo/HOTEL_KING.png";
+// import logo from "../assets/logo/HOTEL_KING.png";
+import logo from "../assets/logo/travel-logo.jpg"
 import { FaHeart } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 
