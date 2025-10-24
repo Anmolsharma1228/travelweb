@@ -133,7 +133,7 @@ const HotelDetails = () => {
                           hotelDescription:
                         </span>
                         <p className="text-gray-600 text-sm mt-2">
-                          {data.hotelDescription}
+                          {data.hotelDescription.replace(/<[^>]+>/g, "")}
                         </p>
                       </div>
                     </div>
